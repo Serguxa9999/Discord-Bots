@@ -116,11 +116,15 @@ class General(commands.Cog):
         await ctx.send("Pong")
 
     @commands.command(name='hello', description=config.HELP_PING_LONG, help=config.HELP_PING_SHORT)
-    async def _ping(self, ctx):
-        await ctx.send("Привет")
-
+    async def _hello(self, ctx):
+        await ctx.send("Привет, друг")
+    
+    @commands.command(name='Как дела?', description=config.HELP_PING_LONG, help=config.HELP_PING_SHORT)
+    async def _affairs(self, ctx):
+        await ctx.send("Отлично. Пойдёшь слушать со мной музыку?")
+    
     @commands.command(name='goodbye', description=config.HELP_PING_LONG, help=config.HELP_PING_SHORT)
-    async def _ping(self, ctx):
+    async def _goodbye(self, ctx):
         await ctx.send("До встречи")
 
     @commands.command(name='setting', description=config.HELP_SHUFFLE_LONG, help=config.HELP_SETTINGS_SHORT, aliases=['settings', 'set'])
