@@ -1,8 +1,8 @@
-ODQ4ODI4ND/c1OTA1NDA5MDQ/0.YLSTHw/.3gnH/tLB-B1G/LN6QVZV8Hv/7dv35I 
+ODQ4ODI4NDc1/OTA1NDA5/MDQ0.YLST/Hw.IWlQR-IVnfkHa/KXUdTLQWs4Lh-E
 
-������� ��� "/" � �������� ����� � ���� MusicBox/config/config.py ������� 1
+Убрать все "/" и вставить токен в файл MusicBox/config/config.py строка 1
 
-������������� ���������� �������� ���������� Python ��� ���������� ������:
+Для корректной работы нужны следующие библиотеки Python:
 discord.py
 discord.py[voice]
 os
@@ -15,4 +15,4 @@ bs4 (beautifulsoup4)
 youtube_dl
 spotipy
 
-Токен бота: ODQ4ODI4ND  @ c1OTA1NDA5MDQ0  @ .YLSTHw.3gnHtLB-B1G  @ LN6QVZV8Hv7dv35I (чтобы использовать токен, нужно убрать все пробелы и символы @ между частями токена. Данная мера является защитой от сброса токена бота Дискордом). Токен бота нужно указать в 1 строке в файле config.py, находящегося по пути MusicBox/config/config.py
+Токен бота: ODQ4ODI4NDc1  @ OTA1NDA5MDQ0.YLS  @ THw.IWlQR-IVnfkHaK  @ XUdTLQWs4Lh-E (чтобы использовать токен, нужно убрать все пробелы и символы @ между частями токена. Данная мера является защитой от сброса токена бота Дискордом). Токен бота нужно указать в 1 строке в файле config.py, находящегося по пути MusicBox/config/config.py
