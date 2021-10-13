@@ -1,4 +1,4 @@
-BOT_TOKEN: str = "ODQ4ODI4NDc1OTA1NDA5MDQ0.YLSTHw.3gnHtLB-B1GLN6QVZV8Hv7dv35I"
+BOT_TOKEN: str = "заменить этот текст на токен бота"
 SPOTIFY_ID: str = ""
 SPOTIFY_SECRET: str = ""
 
